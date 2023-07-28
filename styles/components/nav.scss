@@ -1,0 +1,16 @@
+nav{    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .nav-ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        &-li{
+            margin: 1em 1em;
+            list-style: none;
+        }
+    }
+}
