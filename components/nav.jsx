@@ -19,6 +19,8 @@ const nav = () => {
 
       setProviders(response);
     }
+
+    setProviders();
   }, [])
 
   return (
